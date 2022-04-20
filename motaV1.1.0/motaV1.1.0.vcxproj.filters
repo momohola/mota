@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Monster">
+      <UniqueIdentifier>{ad1d7882-7fea-4fd3-833b-c735b0b559a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Monster">
+      <UniqueIdentifier>{0cf2509b-2d14-4789-b7e0-1c3df465f60b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Display">
+      <UniqueIdentifier>{69ad635f-b6f1-4150-b642-24e5dbe468bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Display">
+      <UniqueIdentifier>{dc91a850-37b4-4290-911e-be120a7d61af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Map">
+      <UniqueIdentifier>{6c6d9f7a-c445-4b5d-8eb8-535ec504b718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Map">
+      <UniqueIdentifier>{1ae5ebfd-0e20-41b1-9e4f-dc55510408eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\VariousGoods">
+      <UniqueIdentifier>{7cf983df-18cd-46d5-ae71-d31992a0f9f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\VariousGoods">
+      <UniqueIdentifier>{cc33bec7-11f2-49a8-b64a-836606f78040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ConnectServer">
+      <UniqueIdentifier>{445d6a92-73c0-44bd-8a77-6514b2ae5143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ConnectServer">
+      <UniqueIdentifier>{bc27db83-4b8a-41dd-9eb8-21049c320d0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Model">
+      <UniqueIdentifier>{743fca4e-3a02-4b04-8fcb-b7ccda5a8504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Model">
+      <UniqueIdentifier>{c0fa2d6a-7275-4325-897b-f04e99daf52a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Utils">
+      <UniqueIdentifier>{61891186-84b1-4ba2-94b2-77e708a10f33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Utils">
+      <UniqueIdentifier>{2214fad2-a491-4a5e-a43d-a83232973362}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hero.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Backpack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>头文件\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsWindows.h">
+      <Filter>头文件\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="DosWindows.h">
+      <Filter>头文件\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap.h">
+      <Filter>头文件\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="ManageXml.h">
+      <Filter>头文件\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>头文件\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="WolfMonsterFactory.h">
+      <Filter>头文件\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterFactory.h">
+      <Filter>头文件\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="BugMonsterFactory.h">
+      <Filter>头文件\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Goods.h">
+      <Filter>头文件\VariousGoods</Filter>
+    </ClInclude>
+    <ClInclude Include="GoodsFactory.h">
+      <Filter>头文件\VariousGoods</Filter>
+    </ClInclude>
+    <ClInclude Include="AttMedicineFactory.h">
+      <Filter>头文件\VariousGoods</Filter>
+    </ClInclude>
+    <ClInclude Include="HpMedicineFactory.h">
+      <Filter>头文件\VariousGoods</Filter>
+    </ClInclude>
+    <ClInclude Include="DefMedicineFactory.h">
+      <Filter>头文件\VariousGoods</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyFactory.h">
+      <Filter>头文件\VariousGoods</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPSender.h">
+      <Filter>头文件\ConnectServer</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalComputerInfo.h">
+      <Filter>头文件\ConnectServer</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpSender.h">
+      <Filter>头文件\ConnectServer</Filter>
+    </ClInclude>
+    <ClInclude Include="DecodeJSON.h">
+      <Filter>头文件\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Array3.h">
+      <Filter>头文件\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="IdentityKind.h">
+      <Filter>头文件\ConnectServer</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgCode.h">
+      <Filter>头文件\ConnectServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Guests.h">
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordGame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatMsg.h">
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ManageChat.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="EncodingTransform.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Hero.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Backpack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Position.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>源文件\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="DosWindows.cpp">
+      <Filter>源文件\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsWindows.cpp">
+      <Filter>源文件\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>源文件\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="ManageXml.cpp">
+      <Filter>源文件\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMap.cpp">
+      <Filter>源文件\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="WolfMonsterFactory.cpp">
+      <Filter>源文件\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterFactory.cpp">
+      <Filter>源文件\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="BugMonsterFactory.cpp">
+      <Filter>源文件\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Goods.cpp">
+      <Filter>源文件\VariousGoods</Filter>
+    </ClCompile>
+    <ClCompile Include="GoodsFactory.cpp">
+      <Filter>源文件\VariousGoods</Filter>
+    </ClCompile>
+    <ClCompile Include="AttMedicineFactory.cpp">
+      <Filter>源文件\VariousGoods</Filter>
+    </ClCompile>
+    <ClCompile Include="HpMedicineFactory.cpp">
+      <Filter>源文件\VariousGoods</Filter>
+    </ClCompile>
+    <ClCompile Include="DefMedicineFactory.cpp">
+      <Filter>源文件\VariousGoods</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyFactory.cpp">
+      <Filter>源文件\VariousGoods</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPSender.cpp">
+      <Filter>源文件\ConnectServer</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalComputerInfo.cpp">
+      <Filter>源文件\ConnectServer</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpSender.cpp">
+      <Filter>源文件\ConnectServer</Filter>
+    </ClCompile>
+    <ClCompile Include="DecodeJSON.cpp">
+      <Filter>源文件\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Array3.cpp">
+      <Filter>源文件\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Guests.cpp">
+      <Filter>源文件\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordGame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatMsg.cpp">
+      <Filter>源文件\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ManageChat.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="EncodingTransform.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

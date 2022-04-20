@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Class Name="Backpack" Collapsed="true">
+    <Position X="17.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAgAAABAAAAAgAQAAAAAAAAAAAAAAAAAAAAABAACA=</HashCode>
+      <FileName>Backpack.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameController" Collapsed="true">
+    <Position X="10.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgAABAMBQQAAAAECAEAAB0AgAAAAAAEAAAAAAAAIA=</HashCode>
+      <FileName>GameController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hero" Collapsed="true">
+    <Position X="14" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIAAQIAAAAEAAQBAAEAAoAwcQAJBAAAAEABABAACBII=</HashCode>
+      <FileName>Hero.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RecordGame" Collapsed="true">
+    <Position X="10.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAIAAAAAAAAAAAAAAAABwAAAAAAAAAACCAAAgAAA=</HashCode>
+      <FileName>RecordGame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Position" Collapsed="true">
+    <Position X="15.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAYgAAAAAAAAQAAAAAAAYAAAAAAAAAA=</HashCode>
+      <FileName>Position.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BugMonsterFactory" Collapsed="true">
+    <Position X="21" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BugMonsterFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monster" Collapsed="true">
+    <Position X="14" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAQAAAAAAAAAAAAEAAgAQAAAJAAAAAAgAABAAABII=</HashCode>
+      <FileName>Monster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonsterFactory" Collapsed="true">
+    <Position X="22" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAABAgAAAAAA=</HashCode>
+      <FileName>MonsterFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WolfMonsterFactory" Collapsed="true">
+    <Position X="23" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WolfMonsterFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DosWindows" Collapsed="true">
+    <Position X="14" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gABAgAAAAAAIAAAAKAAAAADAEAQAAAIAACAAAAAQAAA=</HashCode>
+      <FileName>DosWindows.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsWindows" Collapsed="true">
+    <Position X="12.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAgCIAESABIAAAIQAUIADAABAARAIABBAAAgAQAZA=</HashCode>
+      <FileName>GraphicsWindows.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Array3" Collapsed="true">
+    <Position X="14" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAEEAgAAAAABAQAAACBAIBYgQBIEAAAQAAEAEAA=</HashCode>
+      <FileName>Array3.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecodeJSON" Collapsed="true">
+    <Position X="15.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAIAQAgAAAA=</HashCode>
+      <FileName>DecodeJSON.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameMap" Collapsed="true">
+    <Position X="15.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAECAEAAgAACAAAAAQAKBBEBACAAIAABQCAAggAAA=</HashCode>
+      <FileName>GameMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManageXML" Collapsed="true">
+    <Position X="12.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAACAEgAIAAAAAIIAAAIAABgAAABAAAAAgAAiAAYA=</HashCode>
+      <FileName>ManageXml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AttMedicineFactory" Collapsed="true">
+    <Position X="23" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AttMedicineFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefMedicineFactory" Collapsed="true">
+    <Position X="24.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DefMedicineFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Goods" Collapsed="true">
+    <Position X="17.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAACAgAAIAAAAAAAAABAIAAAAAQBAAAgAAIAASA=</HashCode>
+      <FileName>Goods.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoodsFactory" Collapsed="true">
+    <Position X="22" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GoodsFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HpMedicineFactory" Collapsed="true">
+    <Position X="19.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HpMedicineFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyFactory" Collapsed="true">
+    <Position X="21.25" Y="4" Width="1.5" />
+    <InheritanceLine Type="GoodsFactory" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="22.75" Y="3.298" />
+        <Point X="22.75" Y="3.625" />
+        <Point X="22" Y="3.625" />
+        <Point X="22" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KeyFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LocalComputerInfo" Collapsed="true">
+    <Position X="17.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAACAAAARAYAAAAAIABAA=</HashCode>
+      <FileName>LocalComputerInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HttpSender" Collapsed="true">
+    <Position X="15.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAKBAAAAAAAEAAAAAABAAAAEAQAAAACAAAAIA=</HashCode>
+      <FileName>HttpSender.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatMsg" Collapsed="true">
+    <Position X="10.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAEAAAoAAA=</HashCode>
+      <FileName>ChatMsg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Guests" Collapsed="true">
+    <Position X="12.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAABAAAAAAAAACAGAAAAQAAAgAQQAAAAAGAAAAA=</HashCode>
+      <FileName>Guests.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncodingTransform" Collapsed="true">
+    <Position X="12.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>EncodingTransform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManageChat" Collapsed="true">
+    <Position X="10.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManageChat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="GameState" Collapsed="true">
+    <Position X="10.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAEAAEACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameController.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GoodsId" Collapsed="true">
+    <Position X="12.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAEAAAAAAAAQAAAEAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Goods.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MsgCode" Collapsed="true">
+    <Position X="14" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAgAAAAAAAAACAAAAAAAAAAAAAAABACAABg=</HashCode>
+      <FileName>MsgCode.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
