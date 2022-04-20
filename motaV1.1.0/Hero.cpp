@@ -14,7 +14,7 @@ Hero::Hero(std::string name, int lv, int hp, int exp, int att, int def)
 	m_Att = att;
 	m_Def = def;
 	m_Backpack = new Backpack();
-	m_Forward = 'd';
+	m_Forward = 'w';
 }
 
 
